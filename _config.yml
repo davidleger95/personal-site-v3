@@ -1,0 +1,12 @@
+name: David Leger
+markdown: redcarpet
+redcarpet:
+  extensions: ["autolink", "tables"]
+exclude: ["node_modules",
+  "gulpfile.js",
+  "package.json",
+  "preview.jpg",
+  "README.md"]
+
+baseurl: ''
+highlighter: pygments
