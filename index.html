@@ -1,0 +1,45 @@
+---
+
+layout: default
+
+title: Home
+
+---
+
+<header class="welcome">
+    <div class="logo">{% include svg/logo-dl.svg %}</div>
+    <h1 class="title">David Leger</h1>
+    <p class="lead">Designer, Coder, Creator.</p><br/>
+    {% include social.html %}
+</header>
+
+<section>
+    <div class="col-3 card">
+        <div class="card-img">{% include svg/icon-me.svg %}</div>
+        <p class="card-text">{{ site.data.home.about }}</p>
+        <a href="{{ site.baseurl}}/about" class="btn">About Me</a>
+    </div>
+    <div class="col-3 card">
+        <div class="card-img">{% include svg/icon-work.svg %}</div>
+        <p class="card-text">{{ site.data.home.work }}</p>
+        <a href="{{ site.baseurl}}/work" class="btn">My Work</a>
+    </div>
+    <div class="col-3 card">
+        <div class="card-img">{% include svg/icon-whitespace.svg %}</div>
+        <p class="card-text">{{ site.data.home.whitespace }}</p>
+        <a href="http://www.0xfff.space" class="btn">Whitespace</a>
+    </div>
+</section>
+<hr>
+<section class="col-1">
+    <div class="card">
+        <div class="card-img">{% include svg/icon-letter.svg %}</div>
+        <h3 class="card-title">Join My Mailing List!</h3>
+        <p class="card-text">{{ site.data.home.mailingList }}</p>
+        {% include email-signup.html %}
+    </div>
+</section>
+
+<section>
+    {% include contact.html %}
+</section>

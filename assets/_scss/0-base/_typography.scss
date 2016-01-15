@@ -1,3 +1,7 @@
+body{
+    font-size: 1em;
+}
+
 // --------------------------------------------------
 //  Headings
 // --------------------------------------------------
@@ -5,16 +9,22 @@
 h1, h2, h3, h4, h5, h6{
     
     margin: 0.5em 0;
-    //line-height: 1em;
     
-    font-weight: 100;
-    
-    //color: white;
+    font-weight: 400;
     
     // Subtitles
     .sub{
         font-size: 0.8em;
     }
+}
+
+h1{
+    color: $bg;
+    text-shadow: 0 1px 3px #888;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 2rem;
+    letter-spacing: 3px;
 }
 
 // --------------------------------------------------
@@ -23,6 +33,8 @@ h1, h2, h3, h4, h5, h6{
 
 p{
     color: $dark;
+    line-height: 1.7em;
+    font-weight: 100;
 }
 
 a{
@@ -51,7 +63,7 @@ a{
 }
 
 
-// Syntax Highlighting
+// Code Syntax Highlighting
 
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */

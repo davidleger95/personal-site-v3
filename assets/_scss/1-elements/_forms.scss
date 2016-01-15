@@ -1,0 +1,32 @@
+form{
+    input, textarea{
+        border: 1px solid $primary;
+        margin: 10px;
+        padding: 5px;
+        background: white;
+        border-radius: 0;
+        font-style: italic;
+        
+        &.full{
+            width: calc(100% - 32px);
+            display: inline-block;
+            float: left;
+        }
+        &.half{
+            width: calc(50% - 32px);
+            display: inline-block;
+            float: left;
+        }
+    }
+    text-align: center;
+    .btn{
+        display: inline-block;
+        width: 200px;
+    }
+    
+    textarea{
+        height: 150px;
+    }
+    
+    
+}

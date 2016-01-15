@@ -1,0 +1,25 @@
+<div class="modal-splash" ></div>
+    <div class="modal" id="contact">
+        <div class="modal-close-ctrl">
+            <span></span><span></span>
+        </div>
+        <h1>Say Hello!</h1>
+
+        <form id="contact-form" method="post" onsubmit="return contact();" action="">
+            <input class="half" 
+                   type="text" 
+                   name="name" 
+                   placeholder="Full Name *" />
+            <input class="half" 
+                   type="email" 
+                   name="email" 
+                   placeholder="Email *"/>
+            <input type="text" name="_gotcha" style="display:none" />
+            <textarea class="full" 
+                      name="message"
+                      placeholder="What's Up? *"></textarea>
+            <br/>
+            <input class="btn" type="submit" value="submit">
+        </form>
+
+    </div>

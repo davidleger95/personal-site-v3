@@ -1,0 +1,15 @@
+.btn{
+    display: inline-block;
+    border: 1px solid $primary;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $primary;
+    font-weight: 100;
+    &:hover{
+        transform: scale(1.1);
+    }
+    transition: 200ms all ease-in-out;
+}

@@ -1,0 +1,48 @@
+.container{
+    
+    margin: auto;
+    margin-top: 80px;
+    
+    width: 960px;
+    
+    @media(max-width: 960px){
+        width: 100%;
+    }
+    
+    .col-1{
+        margin: auto;
+        width: 720px;
+        padding: 10px;
+        
+        @media(max-width: 740px){
+            width: calc(100% - 20px);
+        }
+    }
+    
+    .col-3{
+        width: 300px;
+        float: left;
+        padding: 10px;
+        
+        @media(max-width: 960px){
+            width: calc(100% - 20px);
+        }
+    }
+    
+    hr{
+        width: 740px;
+        height: 1px;
+        margin: 50px auto;
+        border: none;
+        background: $bg;
+        
+        @media(max-width: 740px){
+            width: 100%;
+        }
+    }
+    
+    section{
+        overflow: auto;
+    }
+    
+}

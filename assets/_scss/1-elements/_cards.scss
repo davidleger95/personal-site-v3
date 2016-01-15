@@ -1,0 +1,22 @@
+.card{
+    text-align: center;
+    margin: 50px 0;
+    
+    .card-title{
+        
+        margin-top: 30px;
+        margin-bottom: -30px;
+        
+        font-weight: 300;
+        text-transform: uppercase;
+        color: $primary;
+    }
+    
+    .card-img svg{
+        height: 125px;
+        max-width: 100%;
+    }
+    .card-text{
+        padding: 30px 0;
+    }
+}

@@ -1,0 +1,30 @@
+header{
+    
+    padding: 12vh 0;
+    
+    
+    text-align: center;
+    
+    .logo{
+        margin: auto;
+        width: 80px;
+    }
+    
+    .title{
+        font-size: 1.7em;
+    }
+    
+    .lead{
+        display: inline-block;
+        padding: 10px 20px;
+        border: 1px solid $primary;
+        
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: $primary;
+        
+    }
+    @media(min-width: 480px){
+        font-size: 1.5rem;
+    }
+}

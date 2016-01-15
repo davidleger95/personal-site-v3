@@ -14,10 +14,23 @@
 @import "0-base/normalize";
 @import "0-base/vars";
 @import "0-base/typography";
-//@import "0-base/grid";
+@import "0-base/grid";
 
-// 1-modules
-@import "1-modules/navbar";
-@import "1-modules/body";
-@import "1-modules/article";
-@import "1-modules/quote";
+// 1-elements
+@import "1-elements/social";
+@import "1-elements/buttons";
+@import "1-elements/cards";
+@import "1-elements/forms";
+@import "1-elements/modals";
+
+// 2-modules
+@import "2-modules/navbar";
+@import "2-modules/footer";
+@import "2-modules/header";
+
+body{
+    background: linear-gradient($bg, white);
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
