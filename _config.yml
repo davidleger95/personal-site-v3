@@ -8,5 +8,5 @@ exclude: ["node_modules",
   "preview.jpg",
   "README.md"]
 
-baseurl: ''
+baseurl: '/personal-site-v3'
 highlighter: pygments
