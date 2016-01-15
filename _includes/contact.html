@@ -1,4 +1,11 @@
-<div class="modal-splash" ></div>
+<div class="modal-splash" >
+    <div class="sent-message">
+        <h3>Message Sent!</h3><br/>
+        {% include svg/icon-check.svg %}
+
+    </div>
+</div>
+<div class="modal-wrapper">
     <div class="modal" id="contact">
         <div class="modal-close-ctrl">
             <span></span><span></span>
@@ -15,11 +22,13 @@
                    name="email" 
                    placeholder="Email *"/>
             <input type="text" name="_gotcha" style="display:none" />
-            <textarea class="full" 
+            <textarea class="full"
                       name="message"
                       placeholder="What's Up? *"></textarea>
             <br/>
+            <span class="validation-msg"></span>
             <input class="btn" type="submit" value="submit">
         </form>
 
     </div>
+</div>

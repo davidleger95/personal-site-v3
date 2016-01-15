@@ -2,20 +2,29 @@ form{
     input, textarea{
         border: 1px solid $primary;
         margin: 10px;
-        padding: 5px;
+        padding: 10px;
         background: white;
         border-radius: 0;
         font-style: italic;
         
         &.full{
-            width: calc(100% - 32px);
+            width: calc(100% - 42px);
             display: inline-block;
             float: left;
         }
         &.half{
-            width: calc(50% - 32px);
+            width: calc(50% - 42px);
             display: inline-block;
             float: left;
+        }
+        
+        @media(max-width: 740px){
+            width: calc(100% - 42px) !important;
+            max-width: 330px;
+            margin: 10px auto;
+            float: none !important;
+            
+            text-align: center;
         }
     }
     text-align: center;
@@ -26,7 +35,31 @@ form{
     
     textarea{
         height: 150px;
+        text-align: left;
     }
     
+    .validation-msg{
+        display: block;
+        font-style: italic;
+        color: orange;
+        font-size: 14px;
+    }
+}
+
+.sent-message{
+    position: absolute;
+    top: calc(50% - 120px);
     
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+    transform: scale(0);
+    transition: 500ms all ease-in-out;
+    svg{
+        height: 120px;
+        width: 100%;
+        margin: auto;
+        //margin-top: calc(50% - 140px);
+    }
 }

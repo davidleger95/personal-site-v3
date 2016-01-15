@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="298px" height="264px" viewBox="0 0 298 264" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 21 + \s + Line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="512-copy-6" sketch:type="MSArtboardGroup" transform="translate(-156.000000, -105.000000)" stroke-linecap="round" stroke="#C93C74">
+            <g id="Oval-21-+-\s-+-Line" sketch:type="MSLayerGroup" transform="translate(120.000000, 77.000000)">
+                <g id="Oval-21-+-\s" stroke-width="5" sketch:type="MSShapeGroup">
+                    <path d="M46.1719461,205.836647 C61.4833999,248.970371 99.8078451,281.20654 146.378657,287.778528 C152.136683,288.59109 158.020771,289.011326 164.003011,289.011326 C233.038605,289.011326 289.003011,233.046919 289.003011,164.011326 C289.003011,94.975732 233.038605,39.0113258 164.003011,39.0113258 C95.9356921,39.0113258 40.5754661,93.4168577 39.0359208,161.114334" id="Oval-21" transform="translate(164.019466, 164.011326) rotate(-202.500000) translate(-164.019466, -164.011326) "></path>
+                </g>
+                <path d="M168.319821,210.812868 C168.292244,210.789207 168.264917,210.765072 168.237849,210.740461 L93.2292458,142.539207 C91.7032817,141.151731 91.5813202,138.779165 92.9568371,137.239934 C94.332354,135.700702 96.684469,135.57768 98.2104331,136.965157 L170.819182,202.984352 L324.512979,32.231521 C325.885953,30.7061547 328.237862,30.5805156 329.766114,31.9508981 C331.294365,33.3212806 331.420242,35.6687489 330.047268,37.1941151 L173.813823,210.768479 C172.440848,212.293845 170.08894,212.419484 168.560688,211.049102 C168.476097,210.973249 168.395802,210.894403 168.319821,210.812868 Z" id="Line" stroke-width="6" fill="#C93C74" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

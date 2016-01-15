@@ -1,3 +1,7 @@
+body.modal-open{
+    overflow: hidden;
+}
+
 .modal-splash{
     position: fixed;
     //display: ;
@@ -17,14 +21,28 @@
         opacity: 1;
     }
 }
-.modal{
+.modal-wrapper{
+    transform: scale(0);
+    z-index: 0;
     position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    &.modal-open{
+        transform: scale(1);
+    }
+}
+.modal{
+    z-index: 20;
+    position: relative;
     background: white;
     
-    top: -100vh;
+    margin-top: -100vh;
+    
     left: calc(50% - 360px);
     width: 700px;
-    
     @media(max-width: 740px){
         width: calc(100% - 40px);
         left: 10px;
@@ -37,9 +55,9 @@
     
     transition: 500ms all ease-in-out;
     &.modal-open{
-        top: calc(80px + 5vh);
+        margin-top: 15vh;
         @media(max-width: 740px){
-            top: 40px;
+            margin-top: 40px;
         }
     }
     

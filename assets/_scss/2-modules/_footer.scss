@@ -1,13 +1,17 @@
 footer{
     display: block;
     min-height: 100px;
-    
+    text-align: center;
     border-top: 1px solid $bg;
-    
+    margin: auto;
     .social-icons{
+        overflow: visible;
+        position: relative;
+        display: block;
         margin-left: -20px;
+        float: left;
         .icon svg{
-            margin: -5px;
+            margin: 0;
             height: 25px;
             width: 25px;
             &:not(:hover){
@@ -16,28 +20,54 @@ footer{
                 }
             }
         }
+        
+        @media(max-width: 740px){
+            margin: 20px auto;
+            width: 275px;
+            float: none;
+            
+        }
     }
     
     nav{
         float: right;
         position: relative;
-        background: none;
-        
+        display: inline-block;
         padding: 15px 0;
         
-        opacity: 0.5;
+        opacity: 0.6;
         transition: 200ms all ease-in-out;
         &:hover{
             opacity: 1;
         }
-        
+        ul{
+            list-style: none;
+            text-transform: uppercase;
+            color: $accent;
+            margin-top: 0px;
+            padding: 0;
+            overflow: visible;
+        }
         .nav-item{
+            float: left;
             font-size: 0.6rem !important;
             margin: 10px;
-            &.alt a{
-                border: none;
-                padding: 0;
+            a{
+                text-decoration: none;
+            }
+            
+            &:last-child{
+                margin-right: 0;
+            }
+            &:first-child{
+                margin-left: 0;
             }
         }
+        
+        @media(max-width: 740px){
+            float: none;
+            margin: auto;
+        }
+        
     }
 }

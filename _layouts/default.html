@@ -31,5 +31,20 @@
         
         <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+        {% if page.title == 'Home' %}
+        <script>
+            var brand = $('.brand');
+            brand.css("opacity", 0);
+            $(window).scroll(function(){
+                var scrollPos = $(window).scrollTop();
+                console.log(scrollPos);
+                if(scrollPos > 100){
+                    brand.css("opacity", (scrollPos - 100)/300);
+                }else{
+                    brand.css("opacity", 0);
+                }
+            });
+        </script>
+        {% endif %}
     </body>
 </html>

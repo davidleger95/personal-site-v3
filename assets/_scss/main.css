@@ -425,341 +425,347 @@ h1 {
   font-size: 2rem;
   letter-spacing: 3px; }
 
-/* line 34, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 30, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+h3 {
+  color: #C83C74;
+  text-transform: uppercase;
+  font-weight: 100; }
+
+/* line 40, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 p {
   color: #4A4A4A;
   line-height: 1.7em;
   font-weight: 100; }
 
-/* line 40, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 46, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 a {
   color: inherit; }
-  /* line 42, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+  /* line 48, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
   a:hover {
     color: #C83C74; }
 
-/* line 53, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 59, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .text-left {
   text-align: left; }
 
-/* line 57, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 63, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .text-center {
   text-align: center; }
 
-/* line 61, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 67, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .text-right {
   text-align: right; }
 
-/* line 68, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 74, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight {
   background: #ffffff; }
 
-/* line 69, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 75, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .c {
   color: #999988;
   font-style: italic; }
 
 /* Comment */
-/* line 70, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 76, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .err {
   color: #a61717;
   background-color: #e3d2d2; }
 
 /* Error */
-/* line 71, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 77, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .k {
   font-weight: bold; }
 
 /* Keyword */
-/* line 72, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 78, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .o {
   font-weight: bold; }
 
 /* Operator */
-/* line 73, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 79, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .cm {
   color: #999988;
   font-style: italic; }
 
 /* Comment.Multiline */
-/* line 74, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 80, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .cp {
   color: #999999;
   font-weight: bold; }
 
 /* Comment.Preproc */
-/* line 75, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 81, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .c1 {
   color: #999988;
   font-style: italic; }
 
 /* Comment.Single */
-/* line 76, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 82, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .cs {
   color: #999999;
   font-weight: bold;
   font-style: italic; }
 
 /* Comment.Special */
-/* line 77, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 83, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .gd {
   color: #000000;
   background-color: #ffdddd; }
 
 /* Generic.Deleted */
-/* line 78, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 84, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .gd .x {
   color: #000000;
   background-color: #ffaaaa; }
 
 /* Generic.Deleted.Specific */
-/* line 79, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 85, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .ge {
   font-style: italic; }
 
 /* Generic.Emph */
-/* line 80, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 86, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .gr {
   color: #aa0000; }
 
 /* Generic.Error */
-/* line 81, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 87, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .gh {
   color: #999999; }
 
 /* Generic.Heading */
-/* line 82, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 88, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .gi {
   color: #000000;
   background-color: #ddffdd; }
 
 /* Generic.Inserted */
-/* line 83, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 89, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .gi .x {
   color: #000000;
   background-color: #aaffaa; }
 
 /* Generic.Inserted.Specific */
-/* line 84, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 90, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .go {
   color: #888888; }
 
 /* Generic.Output */
-/* line 85, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 91, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .gp {
   color: #555555; }
 
 /* Generic.Prompt */
-/* line 86, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 92, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .gs {
   font-weight: bold; }
 
 /* Generic.Strong */
-/* line 87, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 93, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .gu {
   color: #aaaaaa; }
 
 /* Generic.Subheading */
-/* line 88, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 94, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .gt {
   color: #aa0000; }
 
 /* Generic.Traceback */
-/* line 89, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 95, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .kc {
   font-weight: bold; }
 
 /* Keyword.Constant */
-/* line 90, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 96, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .kd {
   font-weight: bold; }
 
 /* Keyword.Declaration */
-/* line 91, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 97, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .kp {
   font-weight: bold; }
 
 /* Keyword.Pseudo */
-/* line 92, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 98, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .kr {
   font-weight: bold; }
 
 /* Keyword.Reserved */
-/* line 93, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 99, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .kt {
   color: #445588;
   font-weight: bold; }
 
 /* Keyword.Type */
-/* line 94, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 100, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .m {
   color: #009999; }
 
 /* Literal.Number */
-/* line 95, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 101, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .s {
   color: #d14; }
 
 /* Literal.String */
-/* line 96, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 102, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .na {
   color: #008080; }
 
 /* Name.Attribute */
-/* line 97, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 103, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .nb {
   color: #0086B3; }
 
 /* Name.Builtin */
-/* line 98, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 104, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .nc {
   color: #445588;
   font-weight: bold; }
 
 /* Name.Class */
-/* line 99, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 105, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .no {
   color: #008080; }
 
 /* Name.Constant */
-/* line 100, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 106, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .ni {
   color: #800080; }
 
 /* Name.Entity */
-/* line 101, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 107, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .ne {
   color: #990000;
   font-weight: bold; }
 
 /* Name.Exception */
-/* line 102, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 108, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .nf {
   color: #990000;
   font-weight: bold; }
 
 /* Name.Function */
-/* line 103, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 109, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .nn {
   color: #555555; }
 
 /* Name.Namespace */
-/* line 104, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 110, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .nt {
   color: #000080; }
 
 /* Name.Tag */
-/* line 105, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 111, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .nv {
   color: #008080; }
 
 /* Name.Variable */
-/* line 106, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 112, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .ow {
   font-weight: bold; }
 
 /* Operator.Word */
-/* line 107, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 113, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .w {
   color: #bbbbbb; }
 
 /* Text.Whitespace */
-/* line 108, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 114, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .mf {
   color: #009999; }
 
 /* Literal.Number.Float */
-/* line 109, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 115, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .mh {
   color: #009999; }
 
 /* Literal.Number.Hex */
-/* line 110, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 116, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .mi {
   color: #009999; }
 
 /* Literal.Number.Integer */
-/* line 111, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 117, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .mo {
   color: #009999; }
 
 /* Literal.Number.Oct */
-/* line 112, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 118, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .sb {
   color: #d14; }
 
 /* Literal.String.Backtick */
-/* line 113, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 119, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .sc {
   color: #d14; }
 
 /* Literal.String.Char */
-/* line 114, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 120, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .sd {
   color: #d14; }
 
 /* Literal.String.Doc */
-/* line 115, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 121, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .s2 {
   color: #d14; }
 
 /* Literal.String.Double */
-/* line 116, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 122, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .se {
   color: #d14; }
 
 /* Literal.String.Escape */
-/* line 117, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 123, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .sh {
   color: #d14; }
 
 /* Literal.String.Heredoc */
-/* line 118, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 124, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .si {
   color: #d14; }
 
 /* Literal.String.Interpol */
-/* line 119, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 125, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .sx {
   color: #d14; }
 
 /* Literal.String.Other */
-/* line 120, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 126, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .sr {
   color: #009926; }
 
 /* Literal.String.Regex */
-/* line 121, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 127, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .s1 {
   color: #d14; }
 
 /* Literal.String.Single */
-/* line 122, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 128, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .ss {
   color: #990073; }
 
 /* Literal.String.Symbol */
-/* line 123, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 129, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .bp {
   color: #999999; }
 
 /* Name.Builtin.Pseudo */
-/* line 124, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 130, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .vc {
   color: #008080; }
 
 /* Name.Variable.Class */
-/* line 125, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 131, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .vg {
   color: #008080; }
 
 /* Name.Variable.Global */
-/* line 126, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 132, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .vi {
   color: #008080; }
 
 /* Name.Variable.Instance */
-/* line 127, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
+/* line 133, /Users/David/Documents/personal-site-v3/assets/_scss/0-base/_typography.scss */
 .highlight .il {
   color: #009999; }
 
@@ -859,26 +865,158 @@ a {
   .card .card-text {
     padding: 30px 0; }
 
-/* line 2, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_forms.scss */
-form input {
-  border: 1px solid #C83C74;
-  margin: 10px;
-  padding: 5px;
+/* line 1, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_forms.scss */
+form {
+  text-align: center; }
+  /* line 2, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_forms.scss */
+  form input, form textarea {
+    border: 1px solid #C83C74;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    border-radius: 0;
+    font-style: italic; }
+    /* line 10, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_forms.scss */
+    form input.full, form textarea.full {
+      width: calc(100% - 42px);
+      display: inline-block;
+      float: left; }
+    /* line 15, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_forms.scss */
+    form input.half, form textarea.half {
+      width: calc(50% - 42px);
+      display: inline-block;
+      float: left; }
+    @media (max-width: 740px) {
+      /* line 2, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_forms.scss */
+      form input, form textarea {
+        width: calc(100% - 42px) !important;
+        max-width: 330px;
+        margin: 10px auto;
+        float: none !important;
+        text-align: center; } }
+  /* line 31, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_forms.scss */
+  form .btn {
+    display: inline-block;
+    width: 200px; }
+  /* line 36, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_forms.scss */
+  form textarea {
+    height: 150px;
+    text-align: left; }
+  /* line 41, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_forms.scss */
+  form .validation-msg {
+    display: block;
+    font-style: italic;
+    color: orange;
+    font-size: 14px; }
+
+/* line 49, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_forms.scss */
+.sent-message {
+  position: absolute;
+  top: calc(50% - 120px);
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: scale(0);
+  transition: 500ms all ease-in-out; }
+  /* line 59, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_forms.scss */
+  .sent-message svg {
+    height: 120px;
+    width: 100%;
+    margin: auto; }
+
+/* line 1, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+body.modal-open {
+  overflow: hidden; }
+
+/* line 5, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+.modal-splash {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.75);
+  transition: 500ms all ease-in-out; }
+  /* line 19, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+  .modal-splash.modal-open {
+    visibility: visible;
+    opacity: 1; }
+
+/* line 24, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+.modal-wrapper {
+  transform: scale(0);
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: scroll; }
+  /* line 33, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+  .modal-wrapper.modal-open {
+    transform: scale(1); }
+
+/* line 37, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+.modal {
+  z-index: 20;
+  position: relative;
   background: white;
-  font-style: italic; }
-  /* line 10, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_forms.scss */
-  form input[type="email"] {
-    width: calc(100% - 32px);
-    display: inline-block;
-    float: left; }
-  /* line 15, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_forms.scss */
-  form input[type="text"] {
-    width: calc(50% - 32px);
-    display: inline-block;
-    float: left; }
+  margin-top: -100vh;
+  left: calc(50% - 360px);
+  width: 700px;
+  padding: 10px;
+  z-index: 10;
+  box-shadow: 0 0 30px 10px #9B9B9B;
+  transition: 500ms all ease-in-out; }
+  @media (max-width: 740px) {
+    /* line 37, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+    .modal {
+      width: calc(100% - 40px);
+      left: 10px; } }
+  /* line 57, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+  .modal.modal-open {
+    margin-top: 15vh; }
+    @media (max-width: 740px) {
+      /* line 57, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+      .modal.modal-open {
+        margin-top: 40px; } }
+  /* line 64, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+  .modal h1 {
+    text-align: center; }
+
+/* line 69, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+.modal-close-ctrl {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  height: 30px;
+  width: 30px;
+  transition: 200ms all ease-in-out; }
+  /* line 78, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+  .modal-close-ctrl:hover {
+    cursor: pointer;
+    transform: scale(1.1); }
+  /* line 82, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+  .modal-close-ctrl span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    border-radius: 2px;
+    background: #C83C74;
+    transition: 300ms all ease-in-out; }
+  /* line 94, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+  .modal-close-ctrl span:first-child {
+    transform-origin: center;
+    transform: rotateZ(45deg) translateY(9px) translateX(10px); }
+  /* line 98, /Users/David/Documents/personal-site-v3/assets/_scss/1-elements/_modals.scss */
+  .modal-close-ctrl span:last-child {
+    transform-origin: center;
+    transform: rotateZ(-45deg) translateY(8px) translateX(-8px); }
 
 /* line 1, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-nav {
+nav.navbar {
   position: fixed;
   left: 0;
   right: 0;
@@ -889,15 +1027,15 @@ nav {
   overflow: auto;
   padding: 20px; }
   /* line 12, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-  nav a {
+  nav.navbar a {
     text-decoration: none; }
   /* line 14, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-  nav .brand {
+  nav.navbar .brand {
     float: left;
     display: block;
     width: 250px; }
     /* line 19, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-    nav .brand .logo svg {
+    nav.navbar .brand .logo svg {
       background: pink;
       border-radius: 50%;
       float: left;
@@ -905,7 +1043,7 @@ nav {
       width: 40px;
       height: 40px; }
     /* line 29, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-    nav .brand h1 {
+    nav.navbar .brand h1 {
       font-size: 16px;
       margin: 0;
       line-height: 1.5;
@@ -914,19 +1052,19 @@ nav {
       text-shadow: none;
       font-style: normal; }
     /* line 39, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-    nav .brand h2 {
+    nav.navbar .brand h2 {
       font-size: 12px;
       margin: 0;
       line-height: 1;
       font-weight: 300; }
   /* line 47, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-  nav .nav-menu-btn {
+  nav.navbar .nav-menu-btn {
     display: none;
     float: right;
     height: 30px;
     width: 30px; }
     /* line 54, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-    nav .nav-menu-btn span {
+    nav.navbar .nav-menu-btn span {
       display: block;
       height: 2px;
       width: 100%;
@@ -935,97 +1073,128 @@ nav {
       margin: 8px 0;
       transition: 300ms all ease-in-out; }
     /* line 67, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-    nav .nav-menu-btn.open span:first-child {
+    nav.navbar .nav-menu-btn.open span:first-child {
       transform-origin: left;
       transform: rotateZ(45deg) translateY(-1px); }
     /* line 71, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-    nav .nav-menu-btn.open span:last-child {
+    nav.navbar .nav-menu-btn.open span:last-child {
       transform-origin: left;
       transform: rotateZ(-45deg) translateY(1px); }
     /* line 75, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-    nav .nav-menu-btn.open span:nth-child(2) {
+    nav.navbar .nav-menu-btn.open span:nth-child(2) {
       transform-origin: center;
       transform: rotateY(90deg); }
   /* line 82, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-  nav ul {
+  nav.navbar ul {
     list-style: none;
     float: right;
     padding: 0;
     margin: -10px; }
     /* line 87, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-    nav ul li {
+    nav.navbar ul li {
       float: left;
       margin: 20px;
       font-weight: 100;
       color: #9B9B9B;
       font-size: 14px; }
       /* line 94, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-      nav ul li.alt a {
+      nav.navbar ul li.alt a {
         border: 1px solid #C83C74;
         border-radius: 20px;
         padding: 10px 15px;
         color: #C83C74; }
   @media (max-width: 760px) {
     /* line 105, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-    nav .nav-menu {
+    nav.navbar .nav-menu {
       overflow: hidden;
       width: 100%;
       height: 0;
       transition: 300ms all ease-in-out; }
       /* line 112, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-      nav .nav-menu .nav-item {
+      nav.navbar .nav-menu .nav-item {
         float: none;
         margin: 50px auto;
         text-align: center; }
       /* line 118, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-      nav .nav-menu.open {
+      nav.navbar .nav-menu.open {
         height: calc(100vh - 80px); }
     /* line 122, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-    nav .nav-menu-btn {
+    nav.navbar .nav-menu-btn {
       display: block; }
     /* line 126, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_navbar.scss */
-    nav .text h1, nav .text h2 {
+    nav.navbar .text h1, nav.navbar .text h2 {
       font-size-adjust: 80%; } }
 
 /* line 1, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
 footer {
   display: block;
   min-height: 100px;
-  border-top: 1px solid #E8E8E8; }
+  text-align: center;
+  border-top: 1px solid #E8E8E8;
+  margin: auto; }
   /* line 7, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
   footer .social-icons {
-    margin-left: -20px; }
-    /* line 9, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
+    overflow: visible;
+    position: relative;
+    display: block;
+    margin-left: -20px;
+    float: left; }
+    /* line 13, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
     footer .social-icons .icon svg {
-      margin: -5px;
+      margin: 0;
       height: 25px;
       width: 25px; }
-      /* line 14, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
+      /* line 18, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
       footer .social-icons .icon svg:not(:hover) path {
         fill: #C8C8C8 !important; }
-  /* line 21, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
+    @media (max-width: 740px) {
+      /* line 7, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
+      footer .social-icons {
+        margin: 20px auto;
+        width: 275px;
+        float: none; } }
+  /* line 32, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
   footer nav {
     float: right;
     position: relative;
-    background: none;
+    display: inline-block;
     padding: 15px 0;
-    opacity: 0.5;
+    opacity: 0.6;
     transition: 200ms all ease-in-out; }
-    /* line 30, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
+    /* line 40, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
     footer nav:hover {
       opacity: 1; }
-    /* line 34, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
+    /* line 43, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
+    footer nav ul {
+      list-style: none;
+      text-transform: uppercase;
+      color: #9B9B9B;
+      margin-top: 0px;
+      padding: 0;
+      overflow: visible; }
+    /* line 51, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
     footer nav .nav-item {
+      float: left;
       font-size: 0.6rem !important;
       margin: 10px; }
-      /* line 37, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
-      footer nav .nav-item.alt a {
-        border: none;
-        padding: 0; }
+      /* line 55, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
+      footer nav .nav-item a {
+        text-decoration: none; }
+      /* line 59, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
+      footer nav .nav-item:last-child {
+        margin-right: 0; }
+      /* line 62, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
+      footer nav .nav-item:first-child {
+        margin-left: 0; }
+    @media (max-width: 740px) {
+      /* line 32, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_footer.scss */
+      footer nav {
+        float: none;
+        margin: auto; } }
 
 /* line 1, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_header.scss */
 header {
-  padding: 100px 0;
+  padding: 12vh 0;
   text-align: center; }
   /* line 8, /Users/David/Documents/personal-site-v3/assets/_scss/2-modules/_header.scss */
   header .logo {
