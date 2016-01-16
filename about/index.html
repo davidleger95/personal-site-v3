@@ -1,0 +1,69 @@
+---
+
+layout: default
+
+title: About Me
+
+---
+
+<header class="welcome">
+    <div class="img">{% include svg/icon-me.svg %}</div>
+    <h1 class="title">{{ page.title }}</h1>
+    <hr><br/>
+</header>
+
+<section class="col-1">    
+    {{ site.data.about.biography | markdownify }}
+</section>
+<hr>
+<section class="col-1">
+    <h2>education</h2>
+    {% for item in site.data.education %}
+    <div class="info-card">
+        <div class="header">
+            {% if item.image %}
+            <div class="card-img">
+                <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" />
+            </div>
+            {% endif %}
+            <div class="card-meta">
+                {% if item.date %}
+                <h5 class="card-date">{{ item.date }}</h5>
+                {% endif %}
+                <h3 class="card-title">{{ item.school }}</h3>
+                {% if item.status %}
+                <h4 class="card-subtitle">{{ item.status }}</h4>
+                {% endif %}
+            </div>
+        </div>
+        <div class="card-text">{{ item.description | markdownify }}</div>
+    </div>
+    {% endfor %}
+</section>
+<hr>
+<section class="col-1">
+    <h2>areas of interest</h2>
+    {% for item in site.data.interests %}
+    <div class="info-card">
+        <div class="header">
+        {% if item.image %}
+        <div class="card-img">
+            <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" />   
+        </div>
+        {% endif %}
+        {% if item.date %}
+        <h5 class="card-date">{{ item.date }}</h5>
+        {% endif %}
+        <h3 class="card-title">{{ item.title }}</h3>
+        {% if item.subtitle %}
+        <h4 class="card-subtitle">{{ item.subtitle }}</h4>
+        {% endif %}
+        </div>
+        <div class="card-text">{{ item.description | markdownify }}</div>
+    </div>
+    {% endfor %}
+</section>
+
+<section>
+    {% include contact.html %}
+</section>

@@ -1,0 +1,49 @@
+
+  - organization: "CS Square (UNB)"
+    image: logo-cs-square.png
+    position: "Student Helper; Presenter"
+    date: "Sept 2015 - Now"
+    cta:
+      - title: Website
+        link: http://www.cssquare.ca
+    description: |
+        CS Square (Computer Science Creative Space) is a place where students at the University of New Brunswick can go to work on personal projects related to computer science. As the CS Square Student Helper, I am involved with organizing, advertising, and hosting weekly presentations by students and faculty staff members on a variety of topics in computer science, planning pitch competitions and workshops, and maintaining the CS Square website.  
+        As a presenter for CS Square, I delivered two 50-minute presentations on MongoDB and Jekyll.
+        
+  - organization: Atlantic Football League
+    image: logo-afl.png
+    position: "Web Designer & Developer; Website Manager"
+    date: "July 2015 - Now"
+    cta:
+      - title: Website
+        link: http://www.atlanticfootball.co
+    description: |
+        As the web developer for the Atlantic Football League, I built an entirely new version of the league’s website. Once the website was complete, I moved into a website manager role which involves maintaining the league's website. This includes uploading news and media content, updating player stats and game scores, and more.  
+        AFL Website: www.atlanticfootball.co
+        
+  - organization: "Accessability Learning Center (UNB)"
+    image: logo-alc.png
+    position: "Web Designer & Developer"
+    date: Aug 2015 - Jan 2016
+    cta:
+      - title: Website
+        link: http://www2.unb.ca/alc
+      - title: Case Study
+        link: /assets/files/alc-case-study.pdf
+    description: |
+        The project I worked on with the Accessability Learning Center at the University of New Brunswick involved designing and developing a website called “Supporting Students with Disabilities”. Developing this website was a unique experience in which there was a heavy emphasis on making the website accessible to students with disabilities. This included using ARIA tags in HTML and paying attention to content stucture for easy use with screen Readers.
+        
+  - organization: "Faculty of Education (UNB)"
+    image: logo-unb.png
+    position: "Web Designer & Developer"
+    date: Jan 2015 - Apr 2015
+    description: |
+        As the only developer for the Faculty of Education at the University of New Brunswick, I built dynamic and responsive web applications with PHP, HTML, CSS/SCSS, and JavaScript/jQuery; for use by unb faculty and students.
+        
+  - organization: "Mariner Innovations"
+    image: logo-mariner.png
+    position: "Junior Program Analyst"
+    date: May 2014 - Aug 2014
+    description: |
+        As a Junior Program Analyst I built analyzation tools to examine and graphically visualize program interactions and database calls within large-scale COBOL, JCL, and C# applications. While at Mariner I gained experence programming in AWK, Batch, C# (Roslyn), Java (ANTLR), HTML, CSS, and Javascript (D3.js).
+        

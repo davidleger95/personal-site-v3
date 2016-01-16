@@ -14,7 +14,7 @@ nav.navbar{
     .brand{
         float: left;
         display: block;
-        width: 250px;
+        width: 220px;
         
         .logo svg{
             background: pink;
@@ -29,14 +29,14 @@ nav.navbar{
         h1{
             font-size: 16px;
             margin: 0;
-            line-height: 1.5;
+            line-height: 1.2;
             letter-spacing: 0.05em;
             color: $dark;
             text-shadow: none;
             font-style: normal;
             
         }
-        h2{
+        .subtitle{
             font-size: 12px;
             margin: 0;
             line-height: 1;

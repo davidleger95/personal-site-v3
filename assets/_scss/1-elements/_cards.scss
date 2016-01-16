@@ -18,5 +18,56 @@
     }
     .card-text{
         padding: 30px 0;
+        clear: both;
+    }
+}
+
+.info-card{
+    
+    margin: 50px 0;
+    
+    .header{
+        overflow: auto;
+        .card-img{
+            display: block;
+            float: left;
+            height: 100%;
+            padding-right: 10px;
+
+            img{
+                max-width: 50px;
+                max-height: 50px;
+            }
+        }
+        h3, h4, h5{
+            text-transform: uppercase;
+            line-height: 1.3em;
+            margin: 0;
+        }
+        .card-meta{
+            display: block;
+            width: calc(100% - 60px); 
+            float: left;
+        }
+        .card-date{
+            font-style: italic;
+            font-weight: 100;
+            color: $accent;
+            font-size: 12px;
+        }
+        .card-title{
+            font-size: 18px;
+            font-weight: 300;
+        }
+        .card-subtitle{
+            font-size: 12px;
+            font-weight: 300;
+        }
+    }
+    .card-text{
+        clear: both;
+    }
+    .cta{
+        margin-right: 10px;
     }
 }

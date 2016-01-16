@@ -1,0 +1,21 @@
+
+  - title: Full-Stack Development
+    subtitle: "The MEAN Stack: MongoDB, Express.js, AngularJS, Node.js"
+    description: |
+        I like the MEAN stack because it uses JavaScript across the entire system which simplifies communications between the server and client. I already have a basic knowledge of the MEAN stack but I want to get to a point where it’s my go to stack for developing web applications and web services. Currently, my go to stack is SQL, Flask, jQuery, and Python. Sometimes I’ll use PHP for quick projects, but never for production.
+        
+  - title: Internet of Things
+    description: |
+        The Internet of Things interests me because I believe it is the perfect niche in which software engineers can thrive. Students of computer science (CS) rarely get to work with physical hardware in their course work, and students of electrical & computer engineering (ECE) rarely get the chance to write higher-level code. What makes software engineering different is that it’s a hybird degree of CS and ECE, giving students in-depth knowledge and practice in both hardware and software.
+    
+  - title: Machine Learning
+    description: |
+        I believe the greatest applications are ones that can think for themselves. Making smart software that can be proactive with its users enables greater usability and an optimal user experience. Although I am a novice in this area of computer science, I’m eagar to learn more about it and to start building software that implements this concept.
+        
+  - title: Project Management
+    description: |
+        Ultimately, I would love to be a project manager. Even though I like getting my hands dirty and writing code, I believe I’m on a tragectory for project management because of my broad knowledge of languages, frameworks, tools, and technologies. I also have a unique set of skills including problem solving, programming, design, hardware, and workflow, which will aloow me to be an asset in all parts of a given project from start to finish.
+        
+  - title: UI/UX Design
+    description: |
+        I believe good software starts with a good user interface and user experience, but many programmers have almost no concept of UI or UX design, which results in sloppy interfaces that are hard to use. The benefit in having both design and coding skills is that I know the limitations and capabilities of the medium for which I’m designing. I like UI/UX design because it is expressive, and it allows me to combine my artistic and technical skills in single project.

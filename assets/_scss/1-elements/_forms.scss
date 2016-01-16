@@ -56,6 +56,9 @@ form{
     
     transform: scale(0);
     transition: 500ms all ease-in-out;
+    h3{
+        font-weight: 400;
+    }
     svg{
         height: 120px;
         width: 100%;

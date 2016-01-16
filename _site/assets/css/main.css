@@ -372,13 +372,17 @@ h1, h2, h3, h4, h5, h6 {
   h1 .sub, h2 .sub, h3 .sub, h4 .sub, h5 .sub, h6 .sub {
     font-size: 0.8em; }
 
-h1 {
-  color: #E8E8E8;
-  text-shadow: 0 1px 3px #888;
+h1, h2 {
+  color: rgba(232, 232, 232, 0.75);
+  text-shadow: 0px 1px 2px #E8E8E8, 0 0 0 #000;
   text-transform: uppercase;
   font-style: italic;
   font-size: 2rem;
   letter-spacing: 3px; }
+
+h2 {
+  text-transform: none;
+  letter-spacing: 4px; }
 
 h3 {
   color: #C83C74;
@@ -689,7 +693,8 @@ a {
       .container hr {
         width: 100%; } }
   .container section {
-    overflow: auto; }
+    overflow: auto;
+    margin-bottom: 50px !important; }
 
 .social-icons {
   padding: 0;
@@ -738,7 +743,44 @@ a {
     height: 125px;
     max-width: 100%; }
   .card .card-text {
-    padding: 30px 0; }
+    padding: 30px 0;
+    clear: both; }
+
+.info-card {
+  margin: 50px 0; }
+  .info-card .header {
+    overflow: auto; }
+    .info-card .header .card-img {
+      display: block;
+      float: left;
+      height: 100%;
+      padding-right: 10px; }
+      .info-card .header .card-img img {
+        max-width: 50px;
+        max-height: 50px; }
+    .info-card .header h3, .info-card .header h4, .info-card .header h5 {
+      text-transform: uppercase;
+      line-height: 1.3em;
+      margin: 0; }
+    .info-card .header .card-meta {
+      display: block;
+      width: calc(100% - 60px);
+      float: left; }
+    .info-card .header .card-date {
+      font-style: italic;
+      font-weight: 100;
+      color: #9B9B9B;
+      font-size: 12px; }
+    .info-card .header .card-title {
+      font-size: 18px;
+      font-weight: 300; }
+    .info-card .header .card-subtitle {
+      font-size: 12px;
+      font-weight: 300; }
+  .info-card .card-text {
+    clear: both; }
+  .info-card .cta {
+    margin-right: 10px; }
 
 form {
   text-align: center; }
@@ -787,6 +829,8 @@ form {
           transform: scale(0);
   -webkit-transition: 500ms all ease-in-out;
           transition: 500ms all ease-in-out; }
+  .sent-message h3 {
+    font-weight: 400; }
   .sent-message svg {
     height: 120px;
     width: 100%;
@@ -803,7 +847,7 @@ body.modal-open {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-transition: 500ms all ease-in-out;
           transition: 500ms all ease-in-out; }
   .modal-splash.modal-open {
@@ -899,7 +943,7 @@ nav.navbar {
   nav.navbar .brand {
     float: left;
     display: block;
-    width: 250px; }
+    width: 220px; }
     nav.navbar .brand .logo svg {
       background: pink;
       border-radius: 50%;
@@ -910,12 +954,12 @@ nav.navbar {
     nav.navbar .brand h1 {
       font-size: 16px;
       margin: 0;
-      line-height: 1.5;
+      line-height: 1.2;
       letter-spacing: 0.05em;
       color: #4A4A4A;
       text-shadow: none;
       font-style: normal; }
-    nav.navbar .brand h2 {
+    nav.navbar .brand .subtitle {
       font-size: 12px;
       margin: 0;
       line-height: 1;
@@ -1044,9 +1088,14 @@ footer {
 header {
   padding: 12vh 0;
   text-align: center; }
-  header .logo {
+  header .logo svg {
     margin: auto;
-    width: 80px; }
+    width: 80px;
+    height: 100%; }
+  header .img svg {
+    margin: auto;
+    max-width: 175px;
+    max-height: 175px; }
   header .title {
     font-size: 1.7em; }
   header .lead {

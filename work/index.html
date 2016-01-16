@@ -1,0 +1,45 @@
+---
+
+layout: default
+
+title: My Work
+
+---
+
+<header class="welcome">
+    <div class="img">{% include svg/icon-work.svg %}</div>
+    <h1 class="title">{{ page.title }}</h1>
+    <hr><br/>
+</header>
+
+<section class="col-1">
+    <h2>employment</h2>
+    {% for item in site.data.employment %}
+    <div class="info-card">
+        <div class="header">
+        {% if item.image %}
+        <div class="card-img">
+            <img src="{{ site.baseurl }}/assets/img/{{ item.image }}" />   
+        </div>
+        {% endif %}
+        <div class="card-meta">
+            {% if item.date %}
+            <h5 class="card-date">{{ item.date }}</h5>
+            {% endif %}
+            <h3 class="card-title">{{ item.organization }}</h3>
+            {% if item.position %}
+            <h4 class="card-subtitle">{{ item.position }}</h4>
+            {% endif %}
+            </div>
+        </div>
+        <div class="card-text">{{ item.description | markdownify }}</div>
+        
+        {% for cta in item.cta %}
+        <a class="cta btn" href="{{ cta.link }}" target="_blank">{{ cta.title }}</a>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</section>
+<section>
+    {% include contact.html %}
+</section>
