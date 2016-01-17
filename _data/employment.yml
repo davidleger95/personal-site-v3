@@ -8,7 +8,7 @@
         link: http://www.cssquare.ca
     description: |
         CS Square (Computer Science Creative Space) is a place where students at the University of New Brunswick can go to work on personal projects related to computer science. As the CS Square Student Helper, I am involved with organizing, advertising, and hosting weekly presentations by students and faculty staff members on a variety of topics in computer science, planning pitch competitions and workshops, and maintaining the CS Square website.  
-        As a presenter for CS Square, I delivered two 50-minute presentations on MongoDB and Jekyll.
+        As a presenter for CS Square, I prepared and delivered a 50-minute talk on Jekyll.
         
   - organization: Atlantic Football League
     image: logo-afl.png
@@ -18,8 +18,7 @@
       - title: Website
         link: http://www.atlanticfootball.co
     description: |
-        As the web developer for the Atlantic Football League, I built an entirely new version of the league’s website. Once the website was complete, I moved into a website manager role which involves maintaining the league's website. This includes uploading news and media content, updating player stats and game scores, and more.  
-        AFL Website: www.atlanticfootball.co
+        As the web developer for the Atlantic Football League, I built an entirely new version of the league’s website. Once the website was complete, I moved into a website manager role which involves maintaining the league's website. This includes uploading news and media content, updating player stats and game scores, and more.
         
   - organization: "Accessability Learning Center (UNB)"
     image: logo-alc.png
