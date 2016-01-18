@@ -28,7 +28,7 @@
       - title: Website
         link: http://www2.unb.ca/alc
       - title: Case Study
-        link: /assets/files/alc-case-study.pdf
+        link: /assets/files/case-study-alc.pdf
     description: |
         The project I worked on with the Accessability Learning Center at the University of New Brunswick involved designing and developing a website called “Supporting Students with Disabilities”. Developing this website was a unique experience in which there was a heavy emphasis on making the website accessible to students with disabilities. This included using ARIA tags in HTML and paying attention to content stucture for easy use with screen Readers.
         
