@@ -1,0 +1,22 @@
+
+  - project: "Donald Knuth Biography Website"
+    stack: "HTML, SCSS, jQuery, Jekyll"
+    date: "Oct 2015"
+    cta:
+      - title: Live Demo
+        link: http://davidleger95.github.io/knuth-biography/
+    description: |
+        A biography website about Donald Knuth.
+
+  - project: "UniVerse"
+    image: treble.svg
+    stack: "HTML, SCSS, jQuery, Python, Flask, MySQL"
+    date: "Aug 2015"
+    cta:
+      - title: Design Files
+        link: /assets/files/universe-design-files.pdf
+      - title: Live Demo
+        link: http://pacific-sierra-3033.herokuapp.com/signup/
+    description: |
+        UniVerse is a stylish, responsive resource for song lyrics and information about artists. All content is publicly-curated in order to give fans a chance to contribute the most-recent and up-to-date information about their favorite artists.  
+        *(NOTE: Database still needs to be migrated for live demo.)*
