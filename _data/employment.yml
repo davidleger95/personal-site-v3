@@ -20,7 +20,7 @@
     description: |
         As the web developer for the Atlantic Football League, I built an entirely new version of the league’s website. Once the website was complete, I moved into a website manager role which involves maintaining the league's website. This includes uploading news and media content, updating player stats and game scores, and more.
         
-  - organization: "Accessability Learning Center (UNB)"
+  - organization: "Accessibility Learning Center (UNB)"
     image: logo-alc.png
     position: "Web Designer & Developer"
     date: Aug 2015 - Jan 2016
@@ -30,7 +30,7 @@
       - title: Case Study
         link: /assets/files/case-study-alc.pdf
     description: |
-        The project I worked on with the Accessability Learning Center at the University of New Brunswick involved designing and developing a website called “Supporting Students with Disabilities”. Developing this website was a unique experience in which there was a heavy emphasis on making the website accessible to students with disabilities. This included using ARIA tags in HTML and paying attention to content stucture for easy use with screen Readers.
+        The project I worked on with the Accessibility Learning Center at the University of New Brunswick involved designing and developing a website called “Supporting Students with Disabilities”. Developing this website was a unique experience in which there was a heavy emphasis on making the website accessible to students with disabilities. This included using ARIA tags in HTML and paying attention to content stucture for easy use with screen Readers.
         
   - organization: "Faculty of Education (UNB)"
     image: logo-unb.png
