@@ -1,3 +1,13 @@
+  - project: "New Age Creators Website"
+    image: "logo-nac.png"
+    stack: "HTML, SCSS, jQuery, Jekyll"
+    date: "Mar 2016"
+    cta:
+      - title: Live Demo
+        link: http://davidleger95.github.io/nac-website/
+    description: |
+        A website I built for one of my favorite YouTube channels: New Age Creators, an international collaboration channel made up of five young and talented creators.
+        
   - project: "CSS/SVG Circle Charts (with Presidential Polling Data)"
     stack: "HTML, SVG, SCSS, jQuery, Jekyll"
     date: "Jan 2016"
