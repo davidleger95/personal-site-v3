@@ -1,26 +1,26 @@
 /**************************************************
  * Sass, Jekyll, and Browser Sync
- * 
+ *
  * DESCRIPTION
- *  This Gulp file is the basis of my front-end 
- *  development environment. It handles browser 
- *  syncronization, Sass and SCSS processsing and 
+ *  This Gulp file is the basis of my front-end
+ *  development environment. It handles browser
+ *  syncronization, Sass and SCSS processsing and
  *  Jekyll compilation.
  *
  * REQUIRED
- *  NodeJS and Gulp must be installed, and you must 
+ *  NodeJS and Gulp must be installed, and you must
  *  have the files: package.json, _config.yml
  *
  * USAGE
- *  Run gulp from the command line with this file in 
+ *  Run gulp from the command line with this file in
  *  the project's root directory.
- *  (If errors occur when trying to run gulp, make 
+ *  (If errors occur when trying to run gulp, make
  *  sure dependancies in package.json are up to date.)
- * 
+ *
  * NOTES
  *  Sass/SCSS files are located in assets/_scss, which
  *  are complied to CSS and placed in assets/css.
- * 
+ *
  *  David Leger
  *  www.davidleger.me
  *
