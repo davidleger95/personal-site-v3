@@ -1,3 +1,12 @@
+  - project: "Savvier"
+    image: "logo-savvier.png"
+    stack: "HTML, SCSS, Gulp, React.js, Redux, ES6"
+    date: "May 2016- Now"
+    cta:
+      - title: Website
+        link: http://savvier.io
+    description: |
+        As the lead user experience design and lead frontend developer for Savvier, I developed the branding, graphics, and I built the Savvier promotional website (linked below). I am also currently building the Savvier web platform which will be part of our flagship product line.
   - project: "New Age Creators Website"
     image: "logo-nac.png"
     stack: "HTML, SCSS, jQuery, Jekyll"
@@ -7,7 +16,7 @@
         link: http://davidleger95.github.io/nac-website/
     description: |
         A website I built for one of my favorite YouTube channels: New Age Creators, an international collaboration channel made up of five young and talented creators.
-        
+
   - project: "CSS/SVG Circle Charts (with Presidential Polling Data)"
     stack: "HTML, SVG, SCSS, jQuery, Jekyll"
     date: "Jan 2016"
@@ -17,7 +26,7 @@
     description: |
         An easily resizable circle chart module which uses CSS & SVG for structure and JavaScript/jQuery to calculate -- based on the plain-text value centered in the circle -- the degree to which the circle that is filled.
         Pollster data from the Huffington Post related to the 2016 New Hampshire presidential primary is used as sample data.
-        
+
   - project: "Donald Knuth Biography Website"
     stack: "HTML, SCSS, jQuery, Jekyll"
     date: "Oct 2015"
@@ -37,5 +46,5 @@
       - title: Live Demo
         link: http://pacific-sierra-3033.herokuapp.com/signup/
     description: |
-        UniVerse is a stylish, responsive resource for song lyrics and information about artists. All content is publicly-curated in order to give fans a chance to contribute the most-recent and up-to-date information about their favorite artists.  
+        UniVerse is a stylish, responsive resource for song lyrics and information about artists. All content is publicly-curated in order to give fans a chance to contribute the most-recent and up-to-date information about their favorite artists.
         *(NOTE: Database still needs to be migrated for live demo.)*
