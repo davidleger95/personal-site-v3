@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
     <head>
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        
+
         <meta property="og:site_name" content="whitespace"/>
         <meta property="og:title" content="David Leger | {{ page.title }}" />
         <meta property="og:type" content="article" />
@@ -13,7 +13,7 @@
         <meta property="og:url" content="http://davidleger.me{{ page.url }}" />
         <meta property="og:description" content="Designer, Coder, Creator." />
         <meta property="og:image" content="http://davidleger.me/assets/img/share-img.png" />
-        
+
         <link xmlns="http://www.w3.org/1999/xhtml" rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/assets/img/dl-favicon.png"/>
         <title>David Leger | {{ page.title }}</title>
 
@@ -21,14 +21,14 @@
         <!--link rel="stylesheet" href="https://raw.githubusercontent.com/madhur/madhur.github.com/master/files/css/syntax.css"-->
     </head>
     <body>
-        
+
         {% include navbar.html %}
-        
+
         <div class="container">
             {{ content }}
             {% include footer.html %}
         </div>
-        
+
         <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="{{ site.baseurl }}/assets/js/main.js"></script>
         {% if page.title == 'Home' %}
@@ -46,7 +46,7 @@
             });
         </script>
         {% endif %}
-        
+
         <!-- GOOGLE ANALYTICS -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

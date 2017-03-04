@@ -5,9 +5,9 @@
  *          www.davidleger.me
  *
  **************************************************/
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i|PT+Serif:400,700);
 html {
-  font-family: 'Lato', 'Helvetica Neue', sans-serif !important; }
+  font-family: 'Open Sans', 'Helvetica Neue' sans-serif; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -368,25 +368,22 @@ body {
   font-size: 1em; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Serif', serif;
   margin: 0.5em 0;
-  font-weight: 400; }
+  font-weight: 400;
+  letter-spacing: 0.08em; }
   h1 .sub, h2 .sub, h3 .sub, h4 .sub, h5 .sub, h6 .sub {
     font-size: 0.8em; }
 
 h1, h2 {
-  color: rgba(232, 232, 232, 0.75);
+  color: #4A4A4A;
   text-shadow: 0px 1px 2px #E8E8E8, 0 0 0 #000;
   text-transform: uppercase;
-  font-style: italic;
   font-size: 2rem;
-  letter-spacing: 3px; }
-
-h2 {
-  text-transform: none;
-  letter-spacing: 4px; }
+  letter-spacing: 0.2em; }
 
 h3 {
-  color: #C83C74;
+  color: #C10F56;
   text-transform: uppercase;
   font-weight: 100; }
 
@@ -398,7 +395,7 @@ p {
 a {
   color: inherit; }
   a:hover {
-    color: #C83C74; }
+    color: #C10F56; }
 
 .text-left {
   text-align: left; }
@@ -716,20 +713,22 @@ a {
                 transform: scale(1.2); }
 
 .btn {
+  font-family: 'PT Serif', serif;
   display: inline-block;
-  border: 1px solid #C83C74;
-  border-radius: 20px;
+  border-radius: 0.25em;
   padding: 10px 20px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #C83C74;
-  font-weight: 100;
+  background-color: #C10F56;
+  color: white !important;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.1em;
+  font-weight: 700;
   -webkit-transition: 200ms all ease-in-out;
           transition: 200ms all ease-in-out; }
   .btn:hover {
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1); }
+    background-color: #d91161;
+    box-shadow: 0 0 15px rgba(74, 74, 74, 0.5); }
 
 .card {
   text-align: center;
@@ -739,7 +738,7 @@ a {
     margin-bottom: -30px;
     font-weight: 300;
     text-transform: uppercase;
-    color: #C83C74; }
+    color: #C10F56; }
   .card .card-img svg {
     height: 125px;
     max-width: 100%; }
@@ -786,7 +785,7 @@ a {
 form {
   text-align: center; }
   form input, form textarea {
-    border: 1px solid #C83C74;
+    border: 1px solid #C10F56;
     margin: 10px;
     padding: 10px;
     background: white;
@@ -913,7 +912,7 @@ body.modal-open {
     height: 2px;
     width: 100%;
     border-radius: 2px;
-    background: #C83C74;
+    background: #C10F56;
     -webkit-transition: 300ms all ease-in-out;
             transition: 300ms all ease-in-out; }
   .modal-close-ctrl span:first-child {
@@ -938,15 +937,15 @@ nav.navbar {
   text-transform: uppercase;
   display: block;
   overflow: auto;
+  font-weight: 400;
   padding: 20px; }
   nav.navbar a {
     text-decoration: none; }
   nav.navbar .brand {
     float: left;
     display: block;
-    width: 220px; }
+    width: 240px; }
     nav.navbar .brand .logo svg {
-      background: pink;
       border-radius: 50%;
       float: left;
       margin-right: 10px;
@@ -975,7 +974,7 @@ nav.navbar {
       height: 2px;
       width: 100%;
       border-radius: 2px;
-      background: #C83C74;
+      background: #C10F56;
       margin: 8px 0;
       -webkit-transition: 300ms all ease-in-out;
               transition: 300ms all ease-in-out; }
@@ -1001,19 +1000,19 @@ nav.navbar {
     list-style: none;
     float: right;
     padding: 0;
-    margin: -10px; }
+    margin: -10px;
+    letter-spacing: 0.1em; }
     nav.navbar ul li {
       float: left;
       margin: 20px;
-      font-weight: 100;
       color: #9B9B9B;
       font-size: 14px; }
       nav.navbar ul li.alt a {
-        border: 1px solid #C83C74;
-        border-radius: 20px;
+        border: 1px solid #C10F56;
+        border-radius: 30px;
         padding: 10px 15px;
-        color: #C83C74; }
-  @media (max-width: 760px) {
+        color: #C10F56; }
+  @media (max-width: 810px) {
     nav.navbar .nav-menu {
       overflow: hidden;
       width: 100%;
@@ -1022,10 +1021,11 @@ nav.navbar {
               transition: 300ms all ease-in-out; }
       nav.navbar .nav-menu .nav-item {
         float: none;
-        margin: 50px auto;
-        text-align: center; }
+        margin: 60px auto;
+        text-align: center;
+        font-size: 1.5em; }
       nav.navbar .nav-menu.open {
-        height: calc(100vh - 80px); }
+        height: calc(100vh - 60px); }
     nav.navbar .nav-menu-btn {
       display: block; }
     nav.navbar .text h1, nav.navbar .text h2 {
@@ -1087,7 +1087,6 @@ footer {
         margin: auto; } }
 
 header {
-  padding: 12vh 0;
   text-align: center; }
   header .logo svg {
     margin: auto;
@@ -1101,11 +1100,10 @@ header {
     font-size: 1.7em; }
   header .lead {
     display: inline-block;
-    padding: 10px 20px;
-    border: 1px solid #C83C74;
-    letter-spacing: 1.5px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: #C83C74; }
+    color: #C10F56; }
   @media (min-width: 480px) {
     header {
       font-size: 1.5rem; } }
