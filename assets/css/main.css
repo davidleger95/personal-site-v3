@@ -680,7 +680,11 @@ a {
     padding: 10px; }
     @media (max-width: 960px) {
       .container .col-3 {
-        width: calc(100% - 20px); } }
+        width: calc(100% - 20px);
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none; } }
   .container hr {
     width: 740px;
     height: 1px;
