@@ -1087,6 +1087,7 @@ footer {
         margin: auto; } }
 
 header {
+  padding: 12vh 0 6vh 0;
   text-align: center; }
   header .logo svg {
     margin: auto;
