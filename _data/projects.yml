@@ -1,12 +1,23 @@
+  - project: "Timer App"
+    stack: "React.js, ES6+, create-react-app, HTML, SCSS"
+    date: "Mar 2017"
+    cta:
+      - title: Live Demo
+        link: http://davidleger95.github.io/timer-app
+    description: |
+        A timer app I built in a few hours to learn about create-react-app.
   - project: "Savvier"
     image: "logo-savvier.png"
-    stack: "HTML, SCSS, Gulp, React.js, Redux, ES6"
+    stack: "HTML, SCSS, Gulp, React.js, Redux, ES6+"
     date: "May 2016- Now"
     cta:
       - title: Website
         link: http://savvier.io
     description: |
-        As the lead user experience design and lead frontend developer for Savvier, I developed the branding, graphics, and I built the Savvier promotional website (linked below). I am also currently building the Savvier web platform which will be part of our flagship product line.
+        As the lead user experience design and lead frontend developer for
+        Savvier, I developed the branding, graphics, and I built the Savvier
+        promotional website (linked below). I am also currently building the
+        Savvier web platform which will be part of our flagship product line.
   - project: "New Age Creators Website"
     image: "logo-nac.png"
     stack: "HTML, SCSS, jQuery, Jekyll"
