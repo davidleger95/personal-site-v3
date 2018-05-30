@@ -1,3 +1,11 @@
+  - project: "Music I Listen To"
+    stack: "React.js, ES6+, create-react-app, HTML, SCSS"
+    date: "Nov 2017"
+    cta:
+      - title: Live Demo
+        link: http://music.davidleger.me
+    description: |
+        A colection of twelve albums that I throughly enjoy.
   - project: "Timer App"
     stack: "React.js, ES6+, create-react-app, HTML, SCSS"
     date: "Mar 2017"
